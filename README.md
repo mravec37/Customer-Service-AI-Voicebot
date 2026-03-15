@@ -34,8 +34,7 @@ Main components:
   Implementation using OpenAI transcription API.
 
 - `OrderProcessor`  
-  Interface for extracting order data from text.
-
+  Interface for extracting order data from text
 - `OpenAiOrderProcessor`  
   Uses OpenAI to extract items and address from the transcription.
 
@@ -45,7 +44,9 @@ Main components:
 - `EmailService`  
   Sends email using SMTP.
 
+## Example Email
 
-- The webhook must be configured in a GoHighLevel workflow triggered after a call ends.
-- Each customer location is identified by `locationId`.
-- Orders are sent to email after processing.
+Example of the email generated after processing an order:
+
+![Example order email](voiceBot1.png)
+
