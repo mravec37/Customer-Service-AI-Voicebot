@@ -2,6 +2,7 @@
 
 This service processes incoming phone calls handled by GoHighLevel AI agents.  
 After a call finishes, a webhook triggers this application to retrieve the call recording, transcribe it, extract order information, and send the result by email.
+The project was created in Spring Boot. 
 
 ## Flow
 
